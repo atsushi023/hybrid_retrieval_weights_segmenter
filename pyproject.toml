@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atsushi023-multimodal_jd195"
+version = "0.1.0"
+description = "把输入按语义边界切成独立单元，逐单元核对多模态算法研究员·混合检索的权重调节相关的特征并标出命中位置"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "atsushi023" }]
+keywords = ["analysis", "observability", "evaluation", "rag"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://atsushi023.github.io"
+Repository = "https://github.com/atsushi023/multimodal_jd195"
+Issues = "https://github.com/atsushi023/multimodal_jd195/issues"
+
+[project.scripts]
+multimodal_jd195 = "multimodal_jd195:main"
+
+[tool.setuptools]
+py-modules = ["multimodal_jd195"]
