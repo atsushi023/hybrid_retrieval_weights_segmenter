@@ -1,11 +1,11 @@
-# multimodal_jd195
+# hybrid_retrieval_weights_segmenter
 
 **把多模态算法研究员·混合检索的权重调节切成可核查的片段并标出关键位置。**
 
-`multimodal_jd195` —— 把输入按语义边界切成独立单元，逐单元核对多模态算法研究员·混合检索的权重调节相关的特征并标出命中位置
+`hybrid_retrieval_weights_segmenter` —— 把输入按语义边界切成独立单元，逐单元核对多模态算法研究员·混合检索的权重调节相关的特征并标出命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`multimodal_jd195.py` 拷走就能用
+- 单文件，`hybrid_retrieval_weights_segmenter.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install atsushi023-multimodal_jd195
+pip install atsushi023-hybrid_retrieval_weights_segmenter
 ```
 
 装完直接用命令名调用：
 
 ```bash
-multimodal_jd195 --help
+hybrid_retrieval_weights_segmenter --help
 ```
 
-也可以不用安装，直接把 `multimodal_jd195.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `hybrid_retrieval_weights_segmenter.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ multimodal_jd195 --help
 ## 用法
 
 ```bash
-python multimodal_jd195.py --file input.txt
-python multimodal_jd195.py --text "示例内容"
-python multimodal_jd195.py --file input.txt --json
+python hybrid_retrieval_weights_segmenter.py --file input.txt
+python hybrid_retrieval_weights_segmenter.py --text "示例内容"
+python hybrid_retrieval_weights_segmenter.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python multimodal_jd195.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_multimodal_jd195.py
+python test_hybrid_retrieval_weights_segmenter.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_multimodal_jd195.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/atsushi023/multimodal_jd195>
+- GitHub 仓库：<https://github.com/atsushi023/hybrid_retrieval_weights_segmenter>
 
 ---
 
@@ -79,7 +79,7 @@ python test_multimodal_jd195.py
 atsushi023 做多模态算法研究员·混合检索的权重调节相关的问题，方向对标京东的专家多模态算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://atsushi023.github.io>
-- 仓库：<https://github.com/atsushi023/multimodal_jd195>
+- 仓库：<https://github.com/atsushi023/hybrid_retrieval_weights_segmenter>
 
 ## 许可
 

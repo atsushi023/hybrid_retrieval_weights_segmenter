@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "atsushi023-multimodal_jd195"
+name = "atsushi023-hybrid_retrieval_weights_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对多模态算法研究员·混合检索的权重调节相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://atsushi023.github.io"
-Repository = "https://github.com/atsushi023/multimodal_jd195"
-Issues = "https://github.com/atsushi023/multimodal_jd195/issues"
+Repository = "https://github.com/atsushi023/hybrid_retrieval_weights_segmenter"
+Issues = "https://github.com/atsushi023/hybrid_retrieval_weights_segmenter/issues"
 
 [project.scripts]
-multimodal_jd195 = "multimodal_jd195:main"
+hybrid_retrieval_weights_segmenter = "hybrid_retrieval_weights_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["multimodal_jd195"]
+py-modules = ["hybrid_retrieval_weights_segmenter"]
